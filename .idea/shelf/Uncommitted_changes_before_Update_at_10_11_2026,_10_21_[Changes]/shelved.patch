@@ -1,0 +1,257 @@
+Index: motivation/Motivatie - software developer.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html lang=\"nl\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Levi Goossens - Motivatie software developer</title>\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../resume/Cv - software developer.css\">\n  <link rel=\"stylesheet\" href=\"Motivatie - software developer.css\">\n</head>\n<body>\n\n  <div class=\"action-bar\">\n    <button class=\"btn btn-primary\" type=\"button\" onclick=\"window.print()\">\n      <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><polyline points=\"6 9 6 2 18 2 18 9\"></polyline><path d=\"M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2\"></path><rect x=\"6\" y=\"14\" width=\"12\" height=\"8\"></rect></svg>\n      Print / Opslaan als PDF\n    </button>\n  </div>\n\n  <div class=\"cv-container\">\n    <div class=\"page motivation-page\">\n      <header class=\"header-banner\">\n        <div class=\"header-title-box\">\n          <h1 class=\"name\">LEVI GOOSSENS</h1>\n          <div class=\"job-title\">Software Developer</div>\n        </div>\n      </header>\n\n      <div class=\"cv-body motivation-body\">\n        <aside class=\"sidebar\" aria-label=\"Contactgegevens\">\n          <section>\n            <h2 class=\"sidebar-section-title\">Contactgegevens</h2>\n            <ul class=\"contact-list\">\n              <li class=\"contact-item\">\n                <div class=\"contact-icon\">\n                  <svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path></svg>\n                </div>\n                <a href=\"tel:+32490259120\">+32 490 25 91 20</a>\n              </li>\n              <li class=\"contact-item\">\n                <div class=\"contact-icon\">\n                  <svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect width=\"20\" height=\"16\" x=\"2\" y=\"4\" rx=\"2\"></rect><path d=\"m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7\"></path></svg>\n                </div>\n                <a href=\"mailto:levi.goossens107@gmail.com\">levi.goossens107@gmail.com</a>\n              </li>\n              <li class=\"contact-item\">\n                <div class=\"contact-icon\">\n                  <svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle></svg>\n                </div>\n                <address class=\"personal-address\">\n                  Martelarenstraat, 34<br>\n                  3970 Leopoldsburg\n                </address>\n              </li>\n            </ul>\n          </section>\n        </aside>\n\n        <main class=\"main-content letter-content\">\n          <!-- Pas de ontvanger, datum, functie en brieftekst aan voor een nieuwe sollicitatie. -->\n          <address class=\"recipient-address\">\n            <strong>Explore Group</strong><br>\n          </address>\n\n          <p class=\"letter-date\">Leopoldsburg, <time datetime=\"2026-10-09\">09 oktober 2026</time></p>\n\n          <h2 class=\"main-section-title letter-subject\">Betreft: Sollicitatie Young Graduate - Technology Hero</h2>\n \n          <div class=\"letter-text\">\n            <p>Beste rekruteringsteam,</p>\n\n            <p>Hierbij solliciteer ik naar de functie van Young Graduate - Technology Hero. Wat mij aanspreekt in deze functie is de combinatie van technische uitdagingen, kwaliteitsvol ontwikkelen en de mogelijkheid om mijzelf voortdurend verder te ontwikkelen als developer.</p>\n            <!-- <p></p>internship at PXL smart-ICT, graduation project, Xplore Group’s network of competence centers  -->\n            <p></p>\n            <p></p>\n            <p>Graag licht ik in een gesprek toe hoe ik met mijn interesse en leergierigheid een meerwaarde kan toevoegen aan uw team.</p>\n\n            <div class=\"letter-signature\">\n              <p>Met vriendelijke groeten,</p>\n              <p class=\"signature-name\">Levi Goossens</p>\n            </div>\n          </div>\n        </main>\n      </div>\n    </div>\n  </div>\n\n</body>\n</html>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/motivation/Motivatie - software developer.html b/motivation/Motivatie - software developer.html
+--- a/motivation/Motivatie - software developer.html	(revision 7b5b8eb1ab764e104c49fff1dc36d0da6b2f26b7)
++++ b/motivation/Motivatie - software developer.html	(date 1793287860363)
+@@ -3,7 +3,7 @@
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-  <title>Levi Goossens - Motivatie software developer</title>
++  <title>Levi Goossens - Motivatie programmeur en implementator HR-software</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+@@ -29,7 +29,7 @@
+       </header>
+ 
+       <div class="cv-body motivation-body">
+-        <aside class="sidebar" aria-label="Contactgegevens">
++        <aside class="sidebar" aria-label="Contactgegevens en kerngegevens">
+           <section>
+             <h2 class="sidebar-section-title">Contactgegevens</h2>
+             <ul class="contact-list">
+@@ -45,37 +45,47 @@
+                 </div>
+                 <a href="mailto:levi.goossens107@gmail.com">levi.goossens107@gmail.com</a>
+               </li>
+-              <li class="contact-item">
+-                <div class="contact-icon">
+-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+-                </div>
+-                <address class="personal-address">
+-                  Martelarenstraat, 34<br>
+-                  3970 Leopoldsburg
+-                </address>
++            </ul>
++          </section>
++          <section>
++            <h2 class="sidebar-section-title">Extra</h2>
++            <ul class="contact-list kerngegevens-list">
++              <li class="kerngegeven">
++                <span class="kerngegeven-value">Beschikbaar onmiddellijk</span>
++              </li>
++              <li class="kerngegeven">
++                <span class="kerngegeven-value">IBO via VDAB mogelijk</span>
+               </li>
+             </ul>
+           </section>
+         </aside>
+ 
+         <main class="main-content letter-content">
+-          <!-- Pas de ontvanger, datum, functie en brieftekst aan voor een nieuwe sollicitatie. -->
+           <address class="recipient-address">
+-            <strong>Explore Group</strong><br>
++            <strong>CELEKO</strong><br>
++            T.a.v. meneer Kurt Convents
+           </address>
+ 
+-          <p class="letter-date">Leopoldsburg, <time datetime="2026-10-09">09 oktober 2026</time></p>
++          <p class="letter-date">Leopoldsburg, <time datetime="2026-10-29">29 oktober 2026</time></p>
+ 
+-          <h2 class="main-section-title letter-subject">Betreft: Sollicitatie Young Graduate - Technology Hero</h2>
++          <h2 class="main-section-title letter-subject">Betreft: sollicitatie programmeur en implementator van HR-software</h2>
+  
+           <div class="letter-text">
+-            <p>Beste rekruteringsteam,</p>
++            <p>Beste meneer Convents,</p>
++
++            <p>Graag solliciteer ik voor de functie van programmeur en implementator van HRsoftware in Houthalen. De combinatie van programmeren, software configureren en klanten helpen spreekt me aan. Ik vind het interessant om te vertrekken vanuit de behoeften van een klant en mee te werken aan een oplossing die voor die klant bruikbaar is. Ook het opleiden van gebruikers en het bezoeken van klanten spreken me aan.</p>
++
++            <p>Ik volgde het graduaat Programmeren aan Hogeschool PXL en deed tijdens mijn stage bij PXL smart-ICT ervaring op met webapplicaties voor klanten. Voor NaarSchoolInVlaanderen breidde ik een bestaande PHP-applicatie uit volgens de behoeften van de klant, analyseerde ik bugs en schreef ik technische documentatie. Daarbij werkte ik samen met developers, designers en een scrum master.</p>
++
++            <p>Voor de Sint-Vincentius-app bracht ik gebruikersbehoeften en verschillen tussen vestigingen in kaart via interviews. Ik deed de migratie van de bestaande .NET-applicatie naar een multi-tenantarchitectuur. De nieuwe architectuur maakt het gemakkelijker voor geïnteresseerde vestigingen om dezelfde applicatie te gebruiken, met aandacht voor de scheiding van hun gegevens. Ik ontwikkelde ook een data-importtool en schreef integratietests om mogelijke datalekken tussen vestigingen te detecteren.</p>
++
++            <p>Mijn interesse in programmeren begon al vóór mijn opleiding, met zelfstudie en kleinere persoonlijke projecten. Ook aan Webshop-PXL, dat ik oorspronkelijk met medestudenten ontwikkelde, blijf ik zelfstandig werken. Mijn ervaring ligt in webapplicaties en niet specifiek in HR-software, maar met mijn technische basis, ervaring met gebruikersbehoeften en leergierigheid kan ik me inwerken in de software en klanten gericht helpen. Ik wil op termijn en na de nodige opleiding graag zelfstandig klanten ondersteunen en ik beschik over een rijbewijs B.</p>
+ 
+-            <p>Hierbij solliciteer ik naar de functie van Young Graduate - Technology Hero. Wat mij aanspreekt in deze functie is de combinatie van technische uitdagingen, kwaliteitsvol ontwikkelen en de mogelijkheid om mijzelf voortdurend verder te ontwikkelen als developer.</p>
+-            <!-- <p></p>internship at PXL smart-ICT, graduation project, Xplore Group’s network of competence centers  -->
+-            <p></p>
+-            <p></p>
+-            <p>Graag licht ik in een gesprek toe hoe ik met mijn interesse en leergierigheid een meerwaarde kan toevoegen aan uw team.</p>
++            <p>Het spreekt me aan om klanten te helpen bij het opzetten en gebruiken van software, omdat ik ook graag all mensen in mijn omgeving help, zoals familie, medestudenten en collega's.</p>
++
++            <p>Mijn moedertaal is Nederlands en ik spreek zeer goed Engels. Mijn kennis van het Frans is momenteel beperkt.</p>
++
++            <p>Graag licht ik mijn motivatie en ervaring verder toe in een gesprek. Alvast bedankt voor uw tijd en overweging.</p>
+ 
+             <div class="letter-signature">
+               <p>Met vriendelijke groeten,</p>
+Index: motivation/Motivatie - software developer.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>/* Reuse the CV's colors, typography, header, contact details and print button. */\n.motivation-page {\n  min-height: 297mm;\n}\n\n.cv-body.motivation-body {\n  grid-template-columns: 210px minmax(0, 1fr);\n  gap: 30px;\n}\n\n.personal-address,\n.recipient-address {\n  font-style: normal;\n}\n\n.page.motivation-page .letter-content {\n  display: block;\n  min-width: 0;\n  font-size: 13px;\n  line-height: 1.65;\n  color: #3a3a3a;\n}\n\n.recipient-address {\n  margin-bottom: 22px;\n}\n\n.recipient-address strong {\n  color: var(--text-heading);\n}\n\n.letter-date {\n  margin-bottom: 22px;\n  color: var(--text-muted);\n}\n\n.letter-subject {\n  display: block;\n  font-size: 15px;\n  line-height: 1.5;\n  padding-bottom: 10px;\n  margin-bottom: 22px;\n}\n\n.letter-text > p {\n  margin-bottom: 18px;\n}\n\n.letter-signature {\n  margin-top: 24px;\n}\n\n.signature-name {\n  font-family: 'Montserrat', sans-serif;\n  font-weight: 700;\n  color: var(--text-heading);\n  margin-top: 18px;\n}\n\n@media screen and (max-width: 700px) {\n  .motivation-page {\n    min-height: 0;\n  }\n\n  .cv-body.motivation-body {\n    grid-template-columns: 1fr;\n    gap: 30px;\n  }\n}\n\n@media print {\n  .motivation-page {\n    -webkit-print-color-adjust: exact;\n    print-color-adjust: exact;\n    page-break-after: auto;\n    break-after: auto;\n  }\n\n  /* Override the CV's compact first-page rules for a spacious letter layout. */\n  .page.motivation-page .cv-body {\n    grid-template-columns: 210px minmax(0, 1fr);\n    gap: 28px;\n    padding: 26px 35px 30px;\n  }\n\n  .page.motivation-page .sidebar {\n    gap: 24px;\n  }\n\n  .page.motivation-page .contact-list {\n    gap: 12px;\n  }\n\n  .letter-text > p,\n  .letter-signature {\n    break-inside: avoid;\n  }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/motivation/Motivatie - software developer.css b/motivation/Motivatie - software developer.css
+--- a/motivation/Motivatie - software developer.css	(revision 7b5b8eb1ab764e104c49fff1dc36d0da6b2f26b7)
++++ b/motivation/Motivatie - software developer.css	(date 1793287813093)
+@@ -13,6 +13,31 @@
+   font-style: normal;
+ }
+ 
++/* Key details block in the sidebar, mirroring the printed PDF. */
++.kerngegevens-list {
++  gap: 10px;
++}
++
++.kerngegeven {
++  display: flex;
++  flex-direction: column;
++  gap: 1px;
++}
++
++.kerngegeven-label {
++  font-size: 10px;
++  font-weight: 600;
++  letter-spacing: 0.6px;
++  text-transform: uppercase;
++  color: #5a5751;
++}
++
++.kerngegeven-value {
++  font-size: 12.5px;
++  font-weight: 700;
++  color: #242220;
++}
++
+ .page.motivation-page .letter-content {
+   display: block;
+   min-width: 0;
+@@ -91,6 +116,28 @@
+     gap: 12px;
+   }
+ 
++  .page.motivation-page .letter-content {
++    line-height: 1.4;
++  }
++
++  .recipient-address,
++  .letter-date,
++  .letter-subject {
++    margin-bottom: 12px;
++  }
++
++  .letter-text > p {
++    margin-bottom: 10px;
++  }
++
++  .letter-signature {
++    margin-top: 14px;
++  }
++
++  .signature-name {
++    margin-top: 10px;
++  }
++
+   .letter-text > p,
+   .letter-signature {
+     break-inside: avoid;
+Index: .idea/JobHunter.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/JobHunter.iml b/.idea/JobHunter.iml
+new file mode 100644
+--- /dev/null	(date 1794302189430)
++++ b/.idea/JobHunter.iml	(date 1794302189430)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="WEB_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1794302329415)
++++ b/.idea/vcs.xml	(date 1794302329415)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1794302189446)
++++ b/.idea/modules.xml	(date 1794302189446)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/JobHunter.iml" filepath="$PROJECT_DIR$/.idea/JobHunter.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+new file mode 100644
+--- /dev/null	(date 1794302188681)
++++ b/.idea/encodings.xml	(date 1794302188681)
+@@ -0,0 +1,4 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Encoding" addBOMForNewFiles="with BOM under Windows, with no BOM otherwise" />
++</project>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1794302194380)
++++ b/.idea/.gitignore	(date 1794302194380)
+@@ -0,0 +1,12 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Markdown personal settings
++/markdown.xml
++# Editor-based HTTP Client requests
++/httpRequests/
++# Ignored default folder with query files
++/queries/
++# Datasource local storage ignored files
++/dataSources/
++/dataSources.local.xml
