@@ -1,0 +1,98 @@
+/* Reuse the CV's colors, typography, header, contact details and print button. */
+.motivation-page {
+  min-height: 297mm;
+}
+
+.cv-body.motivation-body {
+  grid-template-columns: 210px minmax(0, 1fr);
+  gap: 30px;
+}
+
+.personal-address,
+.recipient-address {
+  font-style: normal;
+}
+
+.page.motivation-page .letter-content {
+  display: block;
+  min-width: 0;
+  font-size: 13px;
+  line-height: 1.65;
+  color: #3a3a3a;
+}
+
+.recipient-address {
+  margin-bottom: 22px;
+}
+
+.recipient-address strong {
+  color: var(--text-heading);
+}
+
+.letter-date {
+  margin-bottom: 22px;
+  color: var(--text-muted);
+}
+
+.letter-subject {
+  display: block;
+  font-size: 15px;
+  line-height: 1.5;
+  padding-bottom: 10px;
+  margin-bottom: 22px;
+}
+
+.letter-text > p {
+  margin-bottom: 18px;
+}
+
+.letter-signature {
+  margin-top: 24px;
+}
+
+.signature-name {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: var(--text-heading);
+  margin-top: 18px;
+}
+
+@media screen and (max-width: 700px) {
+  .motivation-page {
+    min-height: 0;
+  }
+
+  .cv-body.motivation-body {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+
+@media print {
+  .motivation-page {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    page-break-after: auto;
+    break-after: auto;
+  }
+
+  /* Override the CV's compact first-page rules for a spacious letter layout. */
+  .page.motivation-page .cv-body {
+    grid-template-columns: 210px minmax(0, 1fr);
+    gap: 28px;
+    padding: 26px 35px 30px;
+  }
+
+  .page.motivation-page .sidebar {
+    gap: 24px;
+  }
+
+  .page.motivation-page .contact-list {
+    gap: 12px;
+  }
+
+  .letter-text > p,
+  .letter-signature {
+    break-inside: avoid;
+  }
+}
