@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="92091dca-f030-4482-8578-ce438b3c10e8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/motivation/Motivatie - JS VUE PHP Webdeveloper.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motivation/Motivatie - JS VUE PHP Webdeveloper.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motivation/Motivatie - software developer.html" beforeDir="false" afterPath="$PROJECT_DIR$/motivation/Motivatie - software developer.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000654165784189" />
+      <entry key="S2" value="1.096401867980334" />
+      <entry key="S5" value="1.6050874180136772" />
+      <entry key="S10" value="2.4144768731677093" />
+      <entry key="S30" value="3.8883774216298703" />
+      <entry key="S60" value="5.475443739986134" />
+      <entry key="M2" value="8.33088390667315" />
+      <entry key="M5" value="12.321531841782798" />
+      <entry key="M10" value="14.389152857696844" />
+      <entry key="M15" value="15.192444465822497" />
+      <entry key="M30" value="16.06089384649124" />
+      <entry key="H1" value="16.521253204478455" />
+      <entry key="H2" value="16.758281327796784" />
+      <entry key="H4" value="16.878548383846333" />
+      <entry key="D1" value="16.979675291869274" />
+      <entry key="W1" value="16.99709443649791" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9201876506248751" />
+      <entry key="MS500" value="0.9835657900626197" />
+      <entry key="S2" value="1.091641219721766" />
+      <entry key="S5" value="1.6021428365766315" />
+      <entry key="S10" value="2.4123355521470238" />
+      <entry key="S30" value="3.887238210985477" />
+      <entry key="S60" value="5.474329858575398" />
+      <entry key="M2" value="8.329645805306994" />
+      <entry key="M5" value="12.320606507447948" />
+      <entry key="M10" value="14.38857310772482" />
+      <entry key="M15" value="15.192027147841394" />
+      <entry key="M30" value="16.06066839396376" />
+      <entry key="H1" value="16.52113600073792" />
+      <entry key="H2" value="16.758221569859725" />
+      <entry key="H4" value="16.87851821115599" />
+      <entry key="D1" value="16.9796702218879" />
+      <entry key="W1" value="16.997093711200566" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3LuRuQxk8Idpjsx44sNAyTgMB28" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "Rebasing 8-motivation-letter-template",
+    "javascript.preferred.runtime.type.id": "node",
+    "last_opened_file_path": "/home/levig/Custom/Projects/JobHunter",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-56aff7b04f6f-JavaScript-WS-263.7307.202" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92091dca-f030-4482-8578-ce438b3c10e8" name="Changes" comment="" />
+      <created>1794302189103</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1794302189103</updated>
+      <workItem from="1794302190510" duration="713000" />
+      <workItem from="1794304412001" duration="1369000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
