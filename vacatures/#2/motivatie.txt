@@ -1,0 +1,21 @@
+Betreft: sollicitatie Medior Software Engineer .NET / Full-stack Developer - ref. 1837732182-20261009091424
+
+Beste TSG-team,
+
+Graag stel ik mij kandidaat voor de functie van Medior Software Engineer .NET / Full-stack Developer in Turnhout. Jullie toepassingen voor energie en mobiliteit en de combinatie van .NET, Blazor en API's spreken mij aan. Ook de mogelijkheid om in een klein team mee te denken over architectuur en applicaties op langere termijn te verbeteren en te onderhouden vind ik interessant.
+
+Tijdens mijn graduaat Programmeren aan Hogeschool PXL en mijn stage bij PXL smart-ICT werkte ik aan de Sint-Vincentius-app voor echte gebruikers. Ik hielp de applicatie migreren naar een multi-tenantarchitectuur, ontwikkelde een data-importtool, bracht gebruikersbehoeften / verschillen in kaart via interviews en schreef twee integratietests om mogelijke datalekken tussen vestigingen te detecteren. Ook schreef ik technische documentatie voor onderhoud en overdracht. De nieuwe architectuur maakt het voor geïnteresseerde vestigingen gemakkelijker om dezelfde applicatie en infrastructuur te gebruiken, met aandacht voor de scheiding van hun gegevens.
+
+Daarnaast ontwikkelde ik Webshop-PXL oorspronkelijk samen met een groep medestudenten. Voor dit project gebruikte ik C#, ASP.NET, Blazor, Entity Framework, PostgreSQL en Docker. Tijdens het groepsproject werkte ik onder meer aan API-endpoints, service- en repositoryklassen en besteedde ik aandacht aan clean architecture, documentatie en code reviews. Inmiddels richt ik me vooral op verbeteringen aan de infrastructuur en ontwikkelomgeving.
+
+Ik ben een junior developer en beschik nog niet over enkele jaren professionele .NET-ervaring. Wel heb ik tijdens mijn stage meegewerkt aan een bestaande applicatie voor echte gebruikers, van gebruikersbehoeften en ontwikkeling tot testen en documentatie. Die basis wil ik bij TSG verder uitbouwen, onder meer in Azure en cloudtechnologie.
+
+Bij PXL smart-ICT werkte ik samen met developers, een designer en een scrum master. Ik sta open voor feedback en waardeer jullie nadruk op kwaliteit en open communicatie.
+
+Graag licht ik mijn motivatie en ervaring verder toe in een gesprek.
+
+Met vriendelijke groeten,
+
+Levi Goossens
++32 490 25 91 20
+levi.goossens107@gmail.com

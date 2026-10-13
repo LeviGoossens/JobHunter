@@ -1,0 +1,22 @@
+Betreft: sollicitatie Backend Software Engineer (Junior/Medior)
+Beste team van Wisemen,
+
+Graag stel ik mij kandidaat voor de functie van Backend Software Engineer bij Wisemen in Diepenbeek. Wat mij aanspreekt, is dat u software bouwt waar mensen en bedrijven dagelijks op vertrouwen: tienduizenden gebruikers, honderdduizenden devices en honderden backofficemedewerkers die continu met dezelfde systemen werken. Precies daar wil ik aan bijdragen: API's, datamodellen en businesslogica die correct blijven bij gelijktijdig gebruik en schaalbaar blijven wanneer het gebruik groeit.
+
+Tijdens mijn graduaat Programmeren aan de Hogeschool PXL en mijn stage bij PXL smart-ICT deed ik ervaring op met webapplicaties voor echte klanten. Voor de Sint-Vincentius-app bracht ik via interviews de behoeften van de verschillende vestigingen in kaart en schreef ik de code waarmee de migratie naar een multi-tenantarchitectuur mogelijk werd, met C#, Entity Framework, PostgreSQL en Docker. Daarbij lette ik vooral op de scheiding van hun gegevens: ik ontwikkelde een data-importtool en schreef integratietests om mogelijke datalekken tussen vestigingen op te sporen. Die combinatie van datamodellering, consistentie en foutafhandeling sluit goed aan bij uw nadruk op data integrity.
+
+Daarnaast ontwikkelde ik Webshop-PXL, oorspronkelijk met medestudenten en nu zelfstandig. Ik werkte er aan REST API-endpoints, service- en repositoryklassen en de Google-login, met ASP.NET, Entity Framework, PostgreSQL en Docker. Ik deed er code reviews en hield de scheiding tussen lagen in het oog, zodat het project onderhoudbaar blijft. Voor DigitaalZorgkompas hielp ik mee in het bouwen van een site met in Strapi de datamodellen en backend, en de frontend in Vue.
+
+Mijn backendwerk lag tot nu toe vooral bij .NET en PHP. Talen en frameworks die ik nog niet beheers, met Node.js voorop, schrikken mij niet af: PHP en Strapi stonden niet in het lesprogramma, maar ik had ze snel onder de knie. Ik ben dan ook meer dan bereid om mij erin te verdiepen en ze meteen in projecten in te zetten.
+
+De onderwerpen die u als nice-to-have event-driven systemen en performance spreken mij aan. De basis daarvan heb ik tijdens mijn vrije tijd gezien en ben ik stilaan zelfs aan het leren over messagebrokers; in de praktijk wil ik ze bij wisemen echt leren beheersen.
+
+Wat ik meebreng, is technical ownership: ik neem verantwoordelijkheid voor wat ik bouw, gebruik AI als hulpmiddel maar controleer en begrijp de output, en kan mijn code uitleggen, testen en debuggen. Ik zet de klant centraal: ik stel vragen, weeg alternatieven af en zoek eerst de behoefte achter een vraag voordat ik een oplossing kies. Werken met Git, branches, pull requests en code reviews is voor mij vertrouwd, net als samenwerken met developers, designers en een scrum master.
+
+Uw pragmatische aanpak, met oog voor performantie en onderhoudbaarheid, sluit aan bij hoe ik zelf software wil schrijven: snel opleveren zonder kwaliteit te verliezen.
+
+Graag licht ik mijn motivatie en ervaring verder toe in een gesprek. Alvast bedankt voor uw tijd en overweging.
+
+Met vriendelijke groeten,
+
+Levi Goossens

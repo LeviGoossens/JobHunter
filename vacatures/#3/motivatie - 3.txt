@@ -1,0 +1,19 @@
+Beste meneer Convents,
+
+Graag solliciteer ik voor de functie van programmeur en implementator van HR-software in Houthalen. De combinatie van programmeren, software configureren en klanten helpen spreekt me aan. Ik vind het interessant om te vertrekken vanuit de behoeften van een klant en mee te werken aan een oplossing die voor die klant bruikbaar is. Ook het opleiden van gebruikers en het bezoeken van klanten spreken me aan.
+
+Ik volgde het graduaat Programmeren aan Hogeschool PXL en deed tijdens mijn stage bij PXL smart-ICT ervaring op met webapplicaties voor klanten. Voor NaarSchoolInVlaanderen breidde ik een bestaande PHP-applicatie uit volgens de behoeften van de klant, analyseerde ik bugs en schreef ik technische documentatie. Daarbij werkte ik samen met developers, designers en een scrum master.
+
+Voor de Sint-Vincentius-app bracht ik gebruikersbehoeften en verschillen tussen vestigingen in kaart via interviews. Ik werkte mee aan de migratie van de bestaande .NET-applicatie naar een multi-tenantarchitectuur, ontwikkelde een data-importtool en schreef integratietests om mogelijke datalekken tussen vestigingen te detecteren. De nieuwe architectuur maakt het gemakkelijker voor geïnteresseerde vestigingen om dezelfde applicatie te gebruiken, met aandacht voor de scheiding van hun gegevens.
+
+Mijn interesse in programmeren begon al vóór mijn opleiding, met zelfstudie en kleinere persoonlijke projecten. Ook aan Webshop-PXL, dat ik oorspronkelijk met medestudenten ontwikkelde, blijf ik zelfstandig werken. Mijn ervaring ligt in webapplicaties en niet specifiek in HR-software, maar met mijn technische basis, ervaring met gebruikersbehoeften en leergierigheid kan ik me inwerken in de software en klanten gericht helpen. Ik wil op termijn graag zelfstandig klanten ondersteunen en beschik over een rijbewijs B.
+
+Mijn cv vermeldt mijn kennis van het Nederlands en Engels.
+
+Graag licht ik mijn motivatie en ervaring verder toe in een gesprek. Alvast bedankt voor uw tijd en overweging.
+
+Met vriendelijke groeten,
+
+Levi Goossens
++32 490 25 91 20
+levi.goossens107@gmail.com

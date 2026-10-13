@@ -1,0 +1,21 @@
+Betreft: sollicitatie Backend Software Engineer (Junior/Medior) - Diepenbeek
+
+Beste team van Wisemen,
+
+Graag stel ik mij kandidaat voor de functie van Backend Software Engineer bij Wisemen in Diepenbeek. Wat mij aanspreekt, is dat u software bouwt waar mensen en bedrijven dagelijks op vertrouwen: tienduizenden gebruikers, honderdduizenden devices en honderden backofficemedewerkers die continu met dezelfde systemen werken. Precies daar wil ik aan bijdragen: API's, datamodellen en businesslogica die correct blijven onder gelijktijdig gebruik en die snel genoeg blijven wanneer het gebruik groeit.
+
+Tijdens mijn graduaat Programmeren aan de Hogeschool PXL en mijn stage bij PXL smart-ICT deed ik ervaring op met webapplicaties voor echte klanten. Voor de Sint-Vincentius-app hielp ik een bestaande .NET-applicatie migreren naar een multi-tenantarchitectuur, met C#, Entity Framework, PostgreSQL en Docker. Daarbij lette ik vooral op de scheiding van gegevens tussen vestigingen: ik ontwikkelde een data-importtool en schreef integratietests om mogelijke datalekken tussen vestigingen op te sporen. Die combinatie van datamodellering, consistentie en foutafhandeling sluit goed aan bij uw nadruk op data integrity.
+
+Daarnaast ontwikkelde ik Webshop-PXL, oorspronkelijk met medestudenten en nu zelfstandig. Ik werkte er aan REST API-endpoints, service- en repositoryklassen en de Google-login, met ASP.NET, Entity Framework, PostgreSQL en Docker. Ik reviewde er code, schreef de documentatie en dacht na over de scheiding tussen lagen, zodat het project onderhoudbaar blijft. Voor DigitaalZorgkompas bouwde ik in TypeScript de content- en API-laag met Strapi, en de frontend in Vue. De principes die ik daar en bij .NET toepaste — API-ontwerp, validatie, foutafhandeling, datamodellering en testen — zijn rechtstreeks overdraagbaar naar een Node.js-backend, en ik wil mijn TypeScript- en Node.js-kennis bij Wisemen graag verder uitbouwen.
+
+Ik solliciteer op de juniorinstap: mijn backendwerk lag tot nu toe bij .NET of PHP. Talen en frameworks waarin ik nog minder ervaring heb, Node.js voorop, schrikken mij echter niet af. Ik heb eerder nieuwe technologieën zelfstandig leren gebruiken — zo pikte ik bij Melexis vlot AsciiDoc op — en ik ben meer dan bereid om mij in talen en frameworks die ik nog niet beheers te verdiepen en ze in projecten in te zetten. Wat ik meebreng, is technical ownership: ik neem verantwoordelijkheid voor wat ik bouw, gebruik AI als hulpmiddel maar controleer en begrijp de output, en kan mijn code uitleggen, testen en debuggen. Ik stel vragen, weeg alternatieven af en probeer eerst de behoefte achter een vraag te begrijpen voordat ik een oplossing kies. Werken met Git, branches, pull requests en code reviews is voor mij vertrouwd, net als samenwerken met developers, designers en een scrum master.
+
+De onderwerpen die u als nice-to-have noemt — transacties, isolation levels, event-driven systemen en performance — zijn net de reden waarom deze functie mij aanspreekt: de basis heb ik tijdens mijn opleiding gezien, en ik wil ze hier in de praktijk leren beheersen. Ik woon in Leopoldsburg, beschik over een rijbewijs B en ben bereid om regelmatig naar Diepenbeek te komen. Ik ben zo vroeg als mogelijk beschikbaar om te starten.
+
+Graag licht ik mijn motivatie en ervaring verder toe in een gesprek. Alvast bedankt voor uw tijd en overweging.
+
+Met vriendelijke groeten,
+
+Levi Goossens
++32 490 25 91 20
+levi.goossens107@gmail.com

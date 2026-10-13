@@ -1,0 +1,21 @@
+Betreft: sollicitatie Backend Software Engineer (Junior/Medior) - Diepenbeek
+
+Beste,
+
+Graag stel ik mij kandidaat voor de functie van Backend Software Engineer bij Wisemen in Diepenbeek. Wat mij aanspreekt, is dat u software bouwen waar mensen en bedrijven dagelijks op vertrouwen: tienduizenden gebruikers, honderdduizenden devices en honderden backofficemedewerkers die continu met dezelfde systemen werken. Precies daar wil ik aan bijdragen: API's, datamodellen en businesslogica die correct blijven onder gelijktijdig gebruik en die snel genoeg blijven wanneer het gebruik groeit.
+
+Tijdens mijn graduaat Programmeren aan Hogeschool PXL en mijn stage bij PXL smart-ICT deed ik ervaring op met webapplicaties voor echte klanten. Voor de Sint-Vincentius-app hielp ik een bestaande .NET-applicatie migreren naar een multi-tenantarchitectuur, met C#, Entity Framework, PostgreSQL en Docker. Daarbij lette ik vooral op de scheiding van gegevens tussen vestigingen: ik ontwikkelde een data-import tool en schreef integratietests om mogelijke datalekken tussen vestigingen op te sporen. Die combinatie van datamodellering, consistentie en foutafhandeling sluit goed aan bij uw nadruk op data integrity.
+
+Daarnaast ontwikkelde ik Webshop-PXL, oorspronkelijk met medestudenten en nu zelfstandig. Ik werkte er aan REST API-endpoints, service- en repositoryklassen en de Google-login, met ASP.NET, Entity Framework, PostgreSQL en Docker. Ik review er code, schrijf documentatie en denk na over de scheiding tussen lagen, zodat het project onderhoudbaar blijft. Voor DigitaalZorgkompas bouwde ik in TypeScript met Strapi, een backend die op Node.js draait, en met Vue. Zo leerde ik hoe een TypeScript-backend en API's in elkaar zitten, maar ik wil eerlijk zijn: een grote Node.js-backend heb ik nog niet in productie gebouwd. Mijn backend-ervaring ligt vooral bij .NET en PHP. Ik ben ervan overtuigd dat de principes die ik daar leerde — API-ontwerp, validatie, datamodellering, testen en debugging — rechtstreeks overdraagbaar zijn, en ik wil de Node.js- en TypeScript-kennis die ik al heb bij Wisemen verder uitbouwen.
+
+Ik ben een junior developer en heb nog geen jarenlange ervaring op mediorniveau. Wat ik wel meebreng, is technical ownership: ik neem verantwoordelijkheid voor wat ik bouw, gebruik AI als hulpmiddel maar controleer en begrijp de output, en kan mijn code uitleggen, testen en debuggen. Ik stel vragen, weeg alternatieven af en probeer eerst de behoefte achter een vraag te begrijpen voordat ik een oplossing kies. Werken met Git, branches, pull requests en samenwerken met developers, designers en een scrum master zijn voor mij vertrouwd.
+
+De onderwerpen die u als nice-to-have noemen — transacties, isolation levels, event-driven systemen en performance — zijn net de reden waarom deze functie mij aanspreekt. Ik heb er tijdens mijn opleiding de basis van gezien, maar ik wil ze in de praktijk echt leren beheersen. Ik woon in Leopoldsburg, beschik over een rijbewijs B en ben bereid om mezelf regelmatig naar Diepenbeek te verplaatsen.
+
+Graag licht ik mijn motivatie en ervaring verder toe in een gesprek. Alvast bedankt voor uw tijd en overweging.
+
+Met vriendelijke groeten,
+
+Levi Goossens
++32 490 25 91 20
+levi.goossens107@gmail.com

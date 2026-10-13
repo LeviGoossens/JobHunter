@@ -1,0 +1,20 @@
+Betreft: sollicitatie Full Stack .NET Developer
+Beste CLOVR-team,
+
+Graag stel ik mij kandidaat voor de functie van Full Stack .NET Developer bij jullie klant in Limburg. De combinatie van .NET-ontwikkeling, samenwerken met klanten en werken aan verschillende projecten spreekt mij aan. Ik wil graag software bouwen die aansluit bij de behoeften van gebruikers en tegelijk mijn technische kennis verder verdiepen.
+
+Mijn interesse in programmeren begon al vóór mijn opleiding. Via zelfstudie, self-hosting services, kleinere persoonlijke projecten bouwde ik een brede basis op in programmeerconcepten en verschillende technologieën. Ook bij Melexis merkte ik dat ik nieuwe tools snel zelfstandig kon oppikken: zo leerde ik vlot met AsciiDoc werken, wat ook mijn teamleider opmerkte en heb ik ook de basis van code schrijven geleerd. Tijdens mijn graduaat verdiepte ik die basis en leerde ik grotere applicaties gestructureerd aan te pakken, van architectuur en projectorganisatie tot stapsgewijze ontwikkeling.
+
+Tijdens mijn graduaat Programmeren aan Hogeschool PXL en mijn stage bij PXL smart-ICT deed ik ervaring op met webapplicaties voor echte klanten. Voor de Sint-Vincentius-app werkte ik met C#, Entity Framework, PostgreSQL, React en TypeScript. Ik hielp een bestaande .NET-applicatie migreren naar een multi-tenantarchitectuur, ontwikkelde een data-importtool en bracht gebruikersbehoeften in kaart via interviews. Deze veranderingen aan het project zorgde er voor dat er in de toekomst ruimt is om voor de verschillende vestigingen die intresse hadden de zelfde app ook bij hun te gebruiken.
+
+Daarnaast ontwikkelde ik Webshop-PXL oorspronkelijk samen met een groep medestudenten. Inmiddels onderhoud en verbeter ik het project zelfstandig om mijn vaardigheden verder te oefenen en mijn werk te tonen. Het project gebruikt ASP.NET, Blazor en Docker. Ik werk onder meer aan API-endpoints, service- en repositoryklassen en besteed aandacht aan clean architecture en code reviews.
+
+Als junior developer ben ik leergierig, analytisch en gemotiveerd om betrouwbare software op te leveren. De opleidingsmogelijkheden en de kans om op verschillende projecten ervaring op te doen, maken deze functie voor mij extra interessant.
+
+Graag licht ik mijn motivatie en ervaring verder toe in een gesprek.
+
+Met vriendelijke groeten,
+
+Levi Goossens
++32 490 25 91 20
+levi.goossens107@gmail.com
