@@ -1,0 +1,299 @@
+:root {
+  --text-main: #2b2b2b;
+  --text-muted: #555;
+  --border-color: #d9d4ce;
+  --accent: #2e3a4e;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f4f4f6;
+  color: var(--text-main);
+  font-family: 'Open Sans', 'Segoe UI', Arial, sans-serif;
+  font-size: 10pt;
+  line-height: 1.4;
+  padding: 24px 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.action-bar {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 210mm;
+  margin: 0 auto 14px;
+}
+
+.btn {
+  border: 1px solid #2b2b2b;
+  border-radius: 5px;
+  padding: 9px 16px;
+  background: #2b2b2b;
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+}
+
+.cv-container {
+  max-width: 210mm;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0 4px 25px rgb(0 0 0 / 8%);
+}
+
+.page {
+  min-height: 297mm;
+  padding: 13mm 15mm;
+}
+
+.page + .page {
+  border-top: 2px dashed var(--border-color);
+}
+
+.header-banner {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 12px;
+  margin-bottom: 13px;
+}
+
+.header-details {
+  flex: 1;
+  min-width: 0;
+}
+
+h1 {
+  color: #262422;
+  font-size: 25pt;
+  letter-spacing: 1.2px;
+  line-height: 1.15;
+  text-transform: uppercase;
+}
+
+.job-title {
+  color: var(--accent);
+  font-size: 11pt;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.contact-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 14px;
+  list-style: none;
+  font-size: 9pt;
+  margin-top: 8px;
+}
+
+.languages {
+  font-size: 9pt;
+  margin-top: 5px;
+}
+
+.profile-photo {
+  width: 21mm;
+  height: 28mm;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.section-block + .section-block {
+  margin-top: 13px;
+}
+
+h2 {
+  color: var(--accent);
+  font-size: 12pt;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 3px;
+  margin-bottom: 7px;
+}
+
+h3 {
+  font-size: 10pt;
+  font-weight: 700;
+}
+
+.entry + .entry {
+  margin-top: 10px;
+}
+
+.entry-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 6px 14px;
+}
+
+.entry-heading h3 {
+  min-width: 0;
+}
+
+.item-date {
+  color: #333;
+  font-size: 9pt;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.entry-context {
+  color: var(--text-muted);
+  font-size: 9pt;
+  margin-top: 1px;
+}
+
+.item-bullets {
+  padding-left: 17px;
+  margin-top: 4px;
+}
+
+.item-bullets li + li {
+  margin-top: 2px;
+}
+
+.project-links {
+  color: var(--accent);
+  font-size: 9pt;
+  margin-top: 4px;
+}
+
+.skills-list > div + div {
+  margin-top: 4px;
+}
+
+.skills-list dt,
+.skills-list dd {
+  display: inline;
+}
+
+.skills-list dt {
+  font-weight: 700;
+  margin-right: 4px;
+}
+
+.continuation-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  color: var(--text-muted);
+  font-size: 9pt;
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 7px;
+  margin-bottom: 13px;
+}
+
+.continuation-header p:first-child {
+  color: var(--text-main);
+  font-weight: 700;
+}
+
+.section-block > p + p {
+  margin-top: 5px;
+}
+
+.page + .page .section-block + .section-block {
+  margin-top: 9px;
+}
+
+.page + .page .entry + .entry {
+  margin-top: 7px;
+}
+
+.page + .page h2 {
+  margin-bottom: 5px;
+}
+
+@page {
+  size: A4 portrait;
+  margin: 0;
+}
+
+@media print {
+  body {
+    background: #fff;
+    padding: 0;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .action-bar {
+    display: none;
+  }
+
+  .cv-container {
+    max-width: none;
+    box-shadow: none;
+  }
+
+  .page {
+    min-height: 0;
+    break-after: page;
+  }
+
+  .page:last-child {
+    break-after: auto;
+  }
+
+  .page + .page {
+    border-top: none;
+  }
+
+  .entry {
+    break-inside: avoid;
+  }
+
+  h2 {
+    break-after: avoid;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 12px;
+  }
+
+  .page {
+    min-height: 0;
+    padding: 22px;
+  }
+
+  .header-banner {
+    gap: 12px;
+  }
+
+  h1 {
+    font-size: 21pt;
+  }
+
+  .job-title {
+    font-size: 10pt;
+  }
+
+  .profile-photo {
+    width: 17mm;
+    height: 23mm;
+  }
+
+  .entry-heading {
+    flex-wrap: wrap;
+    gap: 2px 12px;
+  }
+}
