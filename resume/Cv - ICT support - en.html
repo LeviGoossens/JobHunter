@@ -5,193 +5,243 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Levi Goossens — programming graduate seeking a junior ICT support and systems role.">
   <title>Levi Goossens - ICT Support &amp; Systems CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Open+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Cv - software developer.css">
   <link rel="stylesheet" href="Cv - ICT support.css">
 </head>
 <body>
   <div class="action-bar">
-    <button class="btn" type="button" onclick="window.print()">Print / Save as PDF</button>
+    <button class="btn btn-primary" type="button" onclick="window.print()">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+      Print / Save as PDF
+    </button>
   </div>
 
   <main class="cv-container">
     <article class="page" aria-label="CV page 1">
       <header class="header-banner">
-        <div class="header-details">
-          <h1>Levi Goossens</h1>
-          <p class="job-title">Programming Graduate | ICT Support &amp; Systems</p>
-          <ul class="contact-list" aria-label="Contact details">
-            <li>Leopoldsburg, Belgium</li>
-            <li><a href="tel:+32490259120">+32 490 25 91 20</a></li>
-            <li><a href="mailto:levi.goossens107@gmail.com">levi.goossens107@gmail.com</a></li>
-            <li><a href="https://github.com/LeviGoossensPXL">github.com/LeviGoossensPXL</a></li>
-            <li><a href="https://www.linkedin.com/in/levi-goossens-5462b1332/">linkedin.com/in/levi-goossens-5462b1332</a></li>
-          </ul>
-          <p class="languages"><strong>Dutch:</strong> native · <strong>English:</strong> very good</p>
+        <div></div>
+        <div class="header-title-box">
+          <h1 class="name">Levi Goossens</h1>
+          <p class="job-title">Programming Graduate<br>ICT Support &amp; Systems</p>
         </div>
-        <img class="profile-photo" src="profile.png" alt="Levi Goossens">
       </header>
 
-      <section class="section-block" aria-labelledby="profile-heading">
-        <h2 id="profile-heading">Profile</h2>
-        <p>Programming graduate with practical experience helping others with IT issues and maintaining self-hosted websites and services since early 2023. My software development background helps me understand applications, databases and the systems they run on. I am seeking a junior ICT support and systems role where I can help users, learn business applications and grow into broader systems responsibilities.</p>
-      </section>
-
-      <section class="section-block" aria-labelledby="support-heading">
-        <h2 id="support-heading">Relevant Support &amp; Systems Experience</h2>
-
-        <div class="entry">
-          <h3>Informal IT Support</h3>
-          <p class="entry-context">Family, fellow students and fellow interns · Personal and educational settings</p>
-          <ul class="item-bullets">
-            <li>Helped 15+ people with technical software and device problems, including support with Git, Docker and npm for fellow students and interns.</li>
-            <li>Installed and reset Windows, set up Android devices and Google accounts, and helped with itsme configuration.</li>
-            <li>Troubleshot HP printer issues, installed additional hardware components and corrected BIOS settings to get an older PC starting again.</li>
-          </ul>
-        </div>
-
-        <div class="entry">
-          <div class="entry-heading">
-            <h3>Home Hosting &amp; Systems</h3>
-            <p class="item-date">Jan 2023–Present</p>
+      <div class="cv-body">
+        <aside class="sidebar" aria-label="Contact details and skills">
+          <div class="photo-container">
+            <img class="profile-photo" src="profile.png" alt="Levi Goossens">
           </div>
-          <p class="entry-context">Personal projects · Synology NAS, Linux, Docker Compose, SSH, Cloudflare</p>
-          <ul class="item-bullets">
-            <li>Host and maintain websites and services on a Synology NAS, including Jellyfin, Kavita, Forgejo and ddclient; use SSH and Docker Compose for configuration and deployment.</li>
-            <li>Configured Cloudflare DNS records, dynamic DNS updates, a static local IP address and router port forwarding for self-hosted services.</li>
-            <li>Set up a reverse proxy, HTTP headers and wildcard HTTPS certificates using acme.sh.</li>
-            <li>Resolved a Kavita configuration-persistence issue by correcting its Docker volume mapping; investigated other application issues and shared findings on GitHub.</li>
-          </ul>
-        </div>
 
-        <div class="entry">
-          <div class="entry-heading">
-            <h3>Webshop-PXL — Development &amp; Hosting</h3>
-            <p class="item-date">Feb 2026–Present</p>
-          </div>
-          <p class="entry-context">School project continued independently · ASP.NET, Blazor, PostgreSQL, Docker</p>
-          <ul class="item-bullets">
-            <li>Coordinated a three-student project, reviewed code, tracked development issues and wrote documentation; continue maintenance after the school project.</li>
-            <li>Set up hosting on my NAS with Docker Compose and images from Docker Hub; configured Google sign-in through Google Cloud.</li>
+          <ul class="contact-list" aria-label="Contact details">
+            <li class="contact-item">
+              <span class="contact-icon" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></span>
+              <a href="tel:+32490259120">+32 490 25 91 20</a>
+            </li>
+            <li class="contact-item">
+              <span class="contact-icon" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg></span>
+              <a href="mailto:levi.goossens107@gmail.com">levi.goossens107@gmail.com</a>
+            </li>
+            <li class="contact-item">
+              <span class="contact-icon" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg></span>
+              <span>Leopoldsburg, Belgium</span>
+            </li>
+            <li class="contact-item">
+              <span class="contact-icon" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17h14l-1.5-7h-11z"></path><path d="M7 10l1.5-3h7L17 10"></path><circle cx="8" cy="17" r="1.5"></circle><circle cx="16" cy="17" r="1.5"></circle></svg></span>
+              <span>Driving licence: B</span>
+            </li>
+            <li class="contact-item">
+              <span class="contact-icon" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg></span>
+              <a href="https://www.linkedin.com/in/levi-goossens-5462b1332/">levi-goossens-5462b1332</a>
+            </li>
+            <li class="contact-item">
+              <span class="contact-icon" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path></svg></span>
+              <a href="https://github.com/LeviGoossensPXL">LeviGoossensPXL</a>
+            </li>
           </ul>
-          <p class="project-links"><a href="https://webshop.levig.dev">webshop.levig.dev</a> · <a href="https://github.com/LeviGoossensPXL/Webshop-PXL">github.com/LeviGoossensPXL/Webshop-PXL</a></p>
-        </div>
-      </section>
 
-      <section class="section-block" aria-labelledby="skills-heading">
-        <h2 id="skills-heading">Key Technical Skills</h2>
-        <dl class="skills-list">
-          <div><dt>Windows &amp; Linux:</dt><dd>Windows installation, resets, drivers, Chocolatey, Event Viewer; basic PowerShell use; Linux Mint, command line, SSH, package management and basic permissions.</dd></div>
-          <div><dt>Networking &amp; security fundamentals:</dt><dd>DNS, static IPs, port forwarding, Wi-Fi troubleshooting, reverse proxies, HTTPS certificates; personal Linux firewall rules and MFA setup.</dd></div>
-          <div><dt>Office applications:</dt><dd>Word, Excel and Microsoft Teams meetings — user-level experience during education.</dd></div>
-          <div><dt>Applications &amp; databases:</dt><dd>Docker / Compose, SQL, PostgreSQL, MySQL, REST APIs and application debugging.</dd></div>
-          <div><dt>Issue tracking &amp; documentation:</dt><dd>GitHub Issues and Azure DevOps for school development projects; Git, technical documentation and handover notes.</dd></div>
-        </dl>
-      </section>
+          <section aria-labelledby="skills-heading">
+            <h2 class="sidebar-section-title" id="skills-heading">Key Technical Skills</h2>
+            <dl class="skills-list">
+              <div class="skill-group"><dt class="skill-group-title">Windows &amp; Linux</dt><dd class="skill-description">Windows installation, resets, drivers, Chocolatey, Event Viewer; basic PowerShell use; Linux Mint, command line, SSH, package management and basic permissions.</dd></div>
+              <div class="skill-group"><dt class="skill-group-title">Networking &amp; Security Fundamentals</dt><dd class="skill-description">DNS, static IPs, port forwarding, Wi-Fi troubleshooting, reverse proxies, HTTPS certificates; personal Linux firewall rules and MFA setup.</dd></div>
+              <div class="skill-group"><dt class="skill-group-title">Office Applications</dt><dd class="skill-description">Word, Excel and Microsoft Teams meetings — user-level experience during education.</dd></div>
+              <div class="skill-group"><dt class="skill-group-title">Applications &amp; Databases</dt><dd class="skill-description">Docker / Compose, SQL, PostgreSQL, MySQL, REST APIs and application debugging.</dd></div>
+              <div class="skill-group"><dt class="skill-group-title">Issue Tracking &amp; Documentation</dt><dd class="skill-description">GitHub Issues and Azure DevOps for school development projects; Git, technical documentation and handover notes.</dd></div>
+            </dl>
+          </section>
+
+          <section aria-labelledby="languages-heading">
+            <h2 class="sidebar-section-title" id="languages-heading">Languages</h2>
+            <p class="language-item"><strong>Dutch</strong> | Native</p>
+            <p class="language-item"><strong>English</strong> | Very good</p>
+          </section>
+        </aside>
+
+        <div class="main-content">
+          <section class="section-block" aria-labelledby="profile-heading">
+            <h2 class="main-section-title" id="profile-heading">About Me</h2>
+            <p class="about-text">Programming graduate with practical experience helping others with IT issues and maintaining self-hosted websites and services since early 2023. My software development background helps me understand applications, databases and the systems they run on. I am seeking a junior ICT support and systems role where I can help users, learn business applications and grow into broader systems responsibilities.</p>
+          </section>
+
+          <section class="section-block" aria-labelledby="support-heading">
+            <h2 class="main-section-title" id="support-heading">Support &amp; Systems Experience</h2>
+
+            <div class="entry">
+              <h3>Informal IT Support</h3>
+              <p class="entry-context">Family, fellow students and fellow interns · Personal and educational settings</p>
+              <ul class="item-bullets">
+                <li>Helped 15+ people with technical software and device problems, including support with Git, Docker and npm for fellow students and interns.</li>
+                <li>Installed and reset Windows, set up Android devices and Google accounts, and helped with itsme configuration.</li>
+                <li>Troubleshot HP printer issues, installed additional hardware components and corrected BIOS settings to get an older PC starting again.</li>
+              </ul>
+            </div>
+
+            <div class="entry">
+              <div class="entry-heading">
+                <h3>Home Hosting &amp; Systems</h3>
+                <p class="item-date">Jan 2023–Present</p>
+              </div>
+              <p class="entry-context">Personal projects · Synology NAS, Linux, Docker Compose, SSH, Cloudflare</p>
+              <ul class="item-bullets">
+                <li>Host and maintain websites and services on a Synology NAS, including Jellyfin, Kavita, Forgejo and ddclient; use SSH and Docker Compose for configuration and deployment.</li>
+                <li>Configured Cloudflare DNS records, dynamic DNS updates, a static local IP address and router port forwarding for self-hosted services.</li>
+                <li>Set up a reverse proxy, HTTP headers and wildcard HTTPS certificates using acme.sh.</li>
+                <li>Resolved a Kavita configuration-persistence issue by correcting its Docker volume mapping; investigated other application issues and shared findings on GitHub.</li>
+              </ul>
+            </div>
+
+            <div class="entry">
+              <div class="entry-heading">
+                <h3>Webshop-PXL — Development &amp; Hosting</h3>
+                <p class="item-date">Feb 2026–Present</p>
+              </div>
+              <p class="entry-context">School project continued independently · ASP.NET, Blazor, PostgreSQL, Docker</p>
+              <ul class="item-bullets">
+                <li>Coordinated a three-student project, reviewed code, tracked development issues and wrote documentation; continue maintenance after the school project.</li>
+                <li>Set up hosting on my NAS with Docker Compose and images from Docker Hub; configured Google sign-in through Google Cloud.</li>
+              </ul>
+              <p class="project-links"><a href="https://webshop.levig.dev">webshop.levig.dev</a> · <a href="https://github.com/LeviGoossensPXL/Webshop-PXL">github.com/LeviGoossensPXL/Webshop-PXL</a></p>
+            </div>
+          </section>
+        </div>
+      </div>
     </article>
 
     <article class="page" aria-label="CV page 2">
-      <header class="continuation-header">
-        <p>Levi Goossens</p>
-        <p>Experience, Education &amp; Development</p>
-      </header>
+      <div class="cv-body single-col">
+        <div class="main-content">
+          <section class="section-block" aria-labelledby="work-heading">
+            <h2 class="main-section-title" id="work-heading">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="14" x="2" y="7" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+              Professional Experience
+            </h2>
 
-      <section class="section-block" aria-labelledby="work-heading">
-        <h2 id="work-heading">Professional Experience</h2>
+            <div class="entry">
+              <div class="entry-heading">
+                <h3>Junior Software Developer — Internship</h3>
+                <p class="item-date">Nov 2025–May 2026</p>
+              </div>
+              <p class="entry-context">PXL smart-ICT · Hasselt</p>
+              <ul class="item-bullets">
+                <li>Developed and maintained client web applications, including NaarSchoolInVlaanderen, Sint-Vincentius and DigitaalZorgkompas.</li>
+                <li>Analysed and fixed reported application bugs and wrote technical documentation for maintenance and handover.</li>
+                <li>Contributed to data imports and Docker configuration, collaborating with developers, a designer and a scrum master.</li>
+              </ul>
+            </div>
 
-        <div class="entry">
-          <div class="entry-heading">
-            <h3>Junior Software Developer — Internship</h3>
-            <p class="item-date">Nov 2025–May 2026</p>
-          </div>
-          <p class="entry-context">PXL smart-ICT · Hasselt</p>
-          <ul class="item-bullets">
-            <li>Developed and maintained client web applications, including NaarSchoolInVlaanderen, Sint-Vincentius and DigitaalZorgkompas.</li>
-            <li>Analysed and fixed reported application bugs and wrote technical documentation for maintenance and handover.</li>
-            <li>Contributed to data imports and Docker configuration, collaborating with developers, a designer and a scrum master.</li>
-          </ul>
+            <div class="entry">
+              <div class="entry-heading">
+                <h3>Operator</h3>
+                <p class="item-date">Dec 2023–Aug 2024</p>
+              </div>
+              <p class="entry-context">Group Ceyssens · Heusden-Zolder</p>
+            </div>
+
+            <div class="entry">
+              <div class="entry-heading">
+                <h3>EMC Assistant</h3>
+                <p class="item-date">Mar 2021–Oct 2023</p>
+              </div>
+              <p class="entry-context">Melexis · Tessenderlo</p>
+              <ul class="item-bullets">
+                <li>Configured test setups and performed EMC tests with LabVIEW, TESEQ software, oscilloscopes and other laboratory equipment.</li>
+                <li>Processed test data with Python and generated charts and reports.</li>
+              </ul>
+            </div>
+
+            <div class="entry">
+              <div class="entry-heading">
+                <h3>Electrician</h3>
+                <p class="item-date">Oct 2020–Jan 2021</p>
+              </div>
+              <p class="entry-context">Gielen Nv · Lommel</p>
+            </div>
+
+            <div class="entry">
+              <div class="entry-heading">
+                <h3>Electrician</h3>
+                <p class="item-date">Jul 2020–Aug 2020</p>
+              </div>
+              <p class="entry-context">Kempische Bordenbouw · Balen</p>
+            </div>
+          </section>
+
+          <section class="section-block" aria-labelledby="graduation-heading">
+            <h2 class="main-section-title" id="graduation-heading">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+              Selected Graduation Project
+            </h2>
+            <div class="entry">
+              <div class="entry-heading">
+                <h3>Sint-Vincentius App</h3>
+                <p class="item-date">Feb 2026–Jun 2026</p>
+              </div>
+              <p class="entry-context">PXL smart-ICT / Hogeschool PXL · C#, Entity Framework, PostgreSQL, Docker, React</p>
+              <ul class="item-bullets">
+                <li>Interviewed two branches about their existing spreadsheet workflows and proposed a common spreadsheet format for importing data into the application.</li>
+                <li>Developed a data import tool, updated Docker configuration and migrated the application from single-tenant to multi-tenant architecture.</li>
+                <li>Documented the application for maintenance and handover; continued graduation-project contributions after the internship ended in May.</li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="section-block" aria-labelledby="education-heading">
+            <h2 class="main-section-title" id="education-heading">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+              Education
+            </h2>
+            <div class="entry">
+              <div class="entry-heading">
+                <h3>Associate Degree in Programming</h3>
+                <p class="item-date">Sep 2024–Jun 2026</p>
+              </div>
+              <p class="entry-context">Hogeschool PXL · Hasselt · Graduated June 2026</p>
+            </div>
+            <div class="entry">
+              <div class="entry-heading">
+                <h3>Technical Secondary Diploma — Electrical Installation Techniques</h3>
+                <p class="item-date">Sep 2016–Jun 2020</p>
+              </div>
+              <p class="entry-context">Provil · Lommel</p>
+            </div>
+          </section>
+
+          <section class="section-block" aria-labelledby="additional-heading">
+            <h2 class="main-section-title" id="additional-heading">Additional Technical Background</h2>
+            <p><strong>Programming:</strong> C# / .NET, Entity Framework, TypeScript, PHP / Symfony, Python, React and Vue. Experience with database migrations and application integrations.</p>
+            <p><strong>Personal configuration project:</strong> <a href="https://github.com/LeviGoossensPXL/Awesome-Environments">github.com/LeviGoossensPXL/Awesome-Environments</a> — PC and Linux environment configuration for easier setup and management.</p>
+          </section>
+
+          <section class="section-block" aria-labelledby="availability-heading">
+            <h2 class="main-section-title" id="availability-heading">Availability &amp; Development</h2>
+            <p>Available immediately. Able to commute to Antwerp by train or car; driving licence B. Flexible for occasional planned evening/weekend work and remote support outside standard office hours.</p>
+            <p>Motivated to develop professional user-support skills and gain practical experience in Microsoft 365 administration and Windows Server through onboarding and training.</p>
+          </section>
         </div>
-
-        <div class="entry">
-          <div class="entry-heading">
-            <h3>Operator</h3>
-            <p class="item-date">Dec 2023–Aug 2024</p>
-          </div>
-          <p class="entry-context">Group Ceyssens · Heusden-Zolder</p>
-        </div>
-
-        <div class="entry">
-          <div class="entry-heading">
-            <h3>EMC Assistant</h3>
-            <p class="item-date">Mar 2021–Oct 2023</p>
-          </div>
-          <p class="entry-context">Melexis · Tessenderlo</p>
-          <ul class="item-bullets">
-            <li>Configured test setups and performed EMC tests with LabVIEW, TESEQ software, oscilloscopes and other laboratory equipment.</li>
-            <li>Processed test data with Python and generated charts and reports.</li>
-          </ul>
-        </div>
-
-        <div class="entry">
-          <div class="entry-heading">
-            <h3>Electrician</h3>
-            <p class="item-date">Oct 2020–Jan 2021</p>
-          </div>
-          <p class="entry-context">Gielen Nv · Lommel</p>
-        </div>
-
-        <div class="entry">
-          <div class="entry-heading">
-            <h3>Electrician</h3>
-            <p class="item-date">Jul 2020–Aug 2020</p>
-          </div>
-          <p class="entry-context">Kempische Bordenbouw · Balen</p>
-        </div>
-      </section>
-
-      <section class="section-block" aria-labelledby="graduation-heading">
-        <h2 id="graduation-heading">Selected Graduation Project</h2>
-        <div class="entry">
-          <div class="entry-heading">
-            <h3>Sint-Vincentius App</h3>
-            <p class="item-date">Feb 2026–Jun 2026</p>
-          </div>
-          <p class="entry-context">PXL smart-ICT / Hogeschool PXL · C#, Entity Framework, PostgreSQL, Docker, React</p>
-          <ul class="item-bullets">
-            <li>Interviewed two branches about their existing spreadsheet workflows and proposed a common spreadsheet format for importing data into the application.</li>
-            <li>Developed a data import tool, updated Docker configuration and migrated the application from single-tenant to multi-tenant architecture.</li>
-            <li>Documented the application for maintenance and handover; continued graduation-project contributions after the internship ended in May.</li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="section-block" aria-labelledby="education-heading">
-        <h2 id="education-heading">Education</h2>
-        <div class="entry">
-          <div class="entry-heading">
-            <h3>Associate Degree in Programming</h3>
-            <p class="item-date">Sep 2024–Jun 2026</p>
-          </div>
-          <p class="entry-context">Hogeschool PXL · Hasselt · Graduated June 2026</p>
-        </div>
-        <div class="entry">
-          <div class="entry-heading">
-            <h3>Technical Secondary Diploma — Electrical Installation Techniques</h3>
-            <p class="item-date">Sep 2016–Jun 2020</p>
-          </div>
-          <p class="entry-context">Provil · Lommel</p>
-        </div>
-      </section>
-
-      <section class="section-block" aria-labelledby="additional-heading">
-        <h2 id="additional-heading">Additional Technical Background</h2>
-        <p><strong>Programming:</strong> C# / .NET, Entity Framework, TypeScript, PHP / Symfony, Python, React and Vue. Experience with database migrations and application integrations.</p>
-        <p><strong>Personal configuration project:</strong> <a href="https://github.com/LeviGoossensPXL/Awesome-Environments">github.com/LeviGoossensPXL/Awesome-Environments</a> — PC and Linux environment configuration for easier setup and management.</p>
-      </section>
-
-      <section class="section-block" aria-labelledby="availability-heading">
-        <h2 id="availability-heading">Availability &amp; Development</h2>
-        <p>Available immediately. Able to commute to Antwerp by train or car; driving licence B. Flexible for occasional planned evening/weekend work and remote support outside standard office hours.</p>
-        <p>Motivated to develop professional user-support skills and gain practical experience in Microsoft 365 administration and Windows Server through onboarding and training.</p>
-      </section>
+      </div>
     </article>
   </main>
 </body>
