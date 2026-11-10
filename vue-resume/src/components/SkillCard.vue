@@ -1,7 +1,7 @@
 <script setup lang="ts">
 defineProps<{
-  groupSkill: string,
-  subSkills: string[],
+  groupSkill: string
+  subSkills: string[]
 }>()
 </script>
 
