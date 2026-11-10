@@ -2,6 +2,7 @@
 import ProjectCard from '@/components/ProjectCard.vue'
 import JobCard from '@/components/JobCard.vue'
 import EducationCard from "@/components/EducationCard.vue";
+import SkillCard from '@/components/SkillCard.vue'
 const date1: Date = new Date(2026, 1)
 const date2: Date = new Date(2026, 5)
 
@@ -40,11 +41,16 @@ const date6: Date = new Date(2026, 5)
     location="Tessenderlo"
     :startDate="date3"
     :endDate="date4"
-    position="EMC - Assistant"
+    position="EMC-Assistant"
     company="Melexis"
     :points="['a', 'b', 'c']"
     :technologies="['C#', 'javascript']"
   ></JobCard>
+
+  <SkillCard
+      groupSkill="Backend Development"
+      :subSkills="['C# / Entity Framework', 'PHP / Symfony', 'Python', 'Strapi', 'REST APIs']"
+  ></SkillCard>
 </template>
 
 <style scoped></style>
