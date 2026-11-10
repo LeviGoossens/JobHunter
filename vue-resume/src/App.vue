@@ -3,6 +3,7 @@ import ProjectCard from '@/components/ProjectCard.vue'
 import JobCard from '@/components/JobCard.vue'
 import EducationCard from "@/components/EducationCard.vue";
 import SkillCard from '@/components/SkillCard.vue'
+import SideSection from '@/components/SideSection.vue'
 const date1: Date = new Date(2026, 1)
 const date2: Date = new Date(2026, 5)
 
@@ -36,7 +37,7 @@ const date6: Date = new Date(2026, 5)
     :points="['a', 'b', 'c']"
     :technologies="['C#', 'javascript']"
   ></ProjectCard>
-
+  <SideSection title="Werkervaring">
   <JobCard
     location="Tessenderlo"
     :startDate="date3"
@@ -46,7 +47,7 @@ const date6: Date = new Date(2026, 5)
     :points="['a', 'b', 'c']"
     :technologies="['C#', 'javascript']"
   ></JobCard>
-
+  </SideSection>
   <SkillCard
       groupSkill="Backend Development"
       :subSkills="['C# / Entity Framework', 'PHP / Symfony', 'Python', 'Strapi', 'REST APIs']"
