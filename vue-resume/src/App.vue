@@ -4,6 +4,8 @@ import JobCard from '@/components/JobCard.vue'
 import EducationCard from "@/components/EducationCard.vue";
 import SkillCard from '@/components/SkillCard.vue'
 import SideSection from '@/components/SideSection.vue'
+import DetailsCard from '@/components/DetailsCard.vue'
+
 const date1: Date = new Date(2026, 1)
 const date2: Date = new Date(2026, 5)
 
@@ -52,6 +54,13 @@ const date6: Date = new Date(2026, 5)
       groupSkill="Backend Development"
       :subSkills="['C# / Entity Framework', 'PHP / Symfony', 'Python', 'Strapi', 'REST APIs']"
   ></SkillCard>
+  <DetailsCard
+      phoneNumber="+32490259120"
+      email="levi.goossens107@gmail.com"
+      location="Leopoldsburg, Belgie"
+      linkedinLink="https://www.linkedin.com/in/levi-goossens-5462b1332"
+      githubLink="https://github.com/LeviGoossens"
+  ></DetailsCard>
 </template>
 
 <style scoped></style>
