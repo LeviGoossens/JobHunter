@@ -13,6 +13,31 @@
   font-style: normal;
 }
 
+/* Key details block in the sidebar, mirroring the printed PDF. */
+.kerngegevens-list {
+  gap: 10px;
+}
+
+.kerngegeven {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.kerngegeven-label {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: #5a5751;
+}
+
+.kerngegeven-value {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #242220;
+}
+
 .page.motivation-page .letter-content {
   display: block;
   min-width: 0;
@@ -89,6 +114,28 @@
 
   .page.motivation-page .contact-list {
     gap: 12px;
+  }
+
+  .page.motivation-page .letter-content {
+    line-height: 1.4;
+  }
+
+  .recipient-address,
+  .letter-date,
+  .letter-subject {
+    margin-bottom: 12px;
+  }
+
+  .letter-text > p {
+    margin-bottom: 10px;
+  }
+
+  .letter-signature {
+    margin-top: 14px;
+  }
+
+  .signature-name {
+    margin-top: 10px;
   }
 
   .letter-text > p,
