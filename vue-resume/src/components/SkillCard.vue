@@ -9,11 +9,9 @@ defineProps<{
   <li class="skill-group">
     <span class="skill-group-title">{{ groupSkill }}</span>
     <ul class="skill-subskills">
-      <li v-for="subSkill in subSkills">{{ subSkill }}</li>
+      <li v-for="subSkill in subSkills" :key="subSkill">{{ subSkill }}</li>
     </ul>
   </li>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

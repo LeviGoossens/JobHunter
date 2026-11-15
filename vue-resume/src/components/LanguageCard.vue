@@ -6,9 +6,7 @@ defineProps<{
 </script>
 
 <template>
-  <strong>{{ language }}</strong> | {{ grade }}
+  <div class="language-item"><strong>{{ language }}</strong> | {{ grade }}</div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
